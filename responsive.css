@@ -1,0 +1,1051 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+@media only screen and (max-width:431px) {
+    
+    nav {
+
+        /* border: 2px solid red !important; */
+        /* display: none; */
+        width: 100% !important;
+        overflow: hidden !important;
+    }
+
+    nav a {
+
+        display: none;
+    }
+
+    nav button {
+        width: 170px !important;
+        height: 60px !important;
+        /* border: 2px solid red; */
+        margin-left: -250px !important;
+    }
+
+    .first-container {
+
+        /* border: 5px solid red !important; */
+        width: 100% !important;
+        height: 50vh !important;
+        position: relative;
+        overflow: hidden !important;
+    }
+
+    #background {
+
+        width: 100% !important;
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: none;
+    }
+
+    .first-con-text {
+
+        width: 100% !important;
+        /* border: 2px solid red !important; */
+    }
+
+    .first-con-right {
+        display: none;
+    }
+
+    .first-container h1 {
+
+        width: 80% !important;
+        font-size: 30px;
+    }
+
+    .first-container p {
+
+        /* border: 2px solid red; */
+        margin-right: 40px !important;
+    }
+
+    .first-con-buttons {
+
+        /* border: 2px solid red !important; */
+        width: 100% !important;
+        padding-left: 40px !important;
+
+    }
+
+    /* ---------------------------------------------------------------------------------------------------- */
+
+    .second-container {
+
+        width: 100% !important;
+        height: 70vh !important;
+        overflow: hidden !important;
+        /* border: 2px solid red !important; */
+    }
+
+    .second-con-details  {
+
+        width: 100% !important;
+        height: 100% !important;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-wrap: wrap;
+        padding-left: 30px !important;
+        /* flex-direction: column; */
+    }
+
+    .card-1 {
+
+        width: 50% !important;
+        height: 50% !important;
+        /* border: 2px solid red !important; */
+        padding-left: 20px !important;
+    }
+
+    .card-1 h1 {
+
+        width: 100% !important;
+        font-size: 25px;
+    }
+    .card-2 {
+
+        width: 50% !important;
+        height: 50% !important;
+        /* border: 2px solid red !important; */
+        padding-left: 20px !important;
+    }
+
+    .card-2 h1 {
+
+        width: 100% !important;
+        font-size: 25px;
+    }
+
+    .card-2 p {
+
+        height: 120px !important;
+    }
+
+    .card-3 {
+
+        width: 50% !important;
+        height: 50% !important;
+        /* border: 2px solid red !important; */
+        padding-left: 20px !important;
+    }
+
+    .card-3 h1 {
+
+        width: 100% !important;
+        font-size: 25px;
+    }
+
+    .card-4 {
+
+        width: 50% !important;
+        height: 50% !important;
+        /* border: 2px solid red !important; */
+        padding-left: 20px !important;
+    }
+
+    .card-4 h1 {
+
+        width: 100% !important;
+        font-size: 25px;
+    }
+
+    .third-container {
+
+        width: 100% !important;
+        height: 130vh !important;
+        /* border: 2px solid red !important; */
+        display: flex;
+        flex-direction: column;
+        overflow: hidden !important;
+    }
+
+    .third-con-left {
+
+        width: 100% !important;
+        height: 40% !important;
+        /* border: 2px solid red !important; */
+    }
+
+    .third-con-right {
+
+        width: 100% !important;
+        height: 60% !important;
+        /* border: 2px solid red !important; */
+        padding-right: 15px !important;
+    }
+
+    .third-con-right h1 {
+
+        font-size: 30px;
+        width: 80% !important;
+        padding-right: 30px !important;
+    }
+
+    .third-con-right p {
+
+        font-size: 15px;
+        width: 95% !important;
+    }
+
+    .third-con-buttons {
+
+        /* border: 2px solid red !important; */
+        width: 95%;
+    }
+
+    .fourth-container {
+
+        width: 100% !important;
+        height: 220vh !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        overflow: hidden !important;
+    }
+
+    .fourth-con-text {
+
+        width: 100% !important;
+        height: 5% !important;
+        display: flex;
+        align-items: center;
+        justify-content: start !important;
+        padding-left: 40px !important; 
+        /* margin-bottom: -10% !important; */
+        /* border: 2px solid red !important; */
+    }
+
+    .fourth-con-text h1 {
+
+        width: 90% !important;
+        /* border: 2px solid red; */
+        font-size: 25px;
+    }
+
+    .fourth-con-card {
+
+        width: 100% !important;
+        height: 90% !important;
+        /* border: 2px solid red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .fourth-card-1 {
+
+        width: 80% !important;
+        height: 30% !important;
+        /* border: 2px solid red !important; */
+    }
+
+    .fourth-card-1 h1 {
+
+        padding-left: 10px !important;
+
+    }
+
+    .fourth-card-1 h2 {
+
+        padding-left: 10px !important;
+
+    }
+
+    .fourth-card-1 p {
+
+        padding-left: 10px !important;
+
+    }
+
+    .fourth-card-2 {
+
+        width: 80% !important;
+        height: 30% !important;
+        /* border: 2px solid red !important; */
+    }
+
+    .fourth-card-2 h1 {
+
+        padding-left: 10px !important;
+
+    }
+
+    .fourth-card-2 h2 {
+
+        padding-left: 10px !important;
+
+    }
+
+    .fourth-card-2 p {
+
+        padding-left: 10px !important;
+
+    }
+
+    .fourth-card-3 {
+
+        width: 80% !important;
+        height: 30% !important;
+        /* border: 2px solid red !important; */
+    }
+    
+    .fourth-card-3 h1 {
+
+        padding-left: 10px !important;
+
+    }
+
+    .fourth-card-3 h2 {
+
+        padding-left: 10px !important;
+
+    }
+
+    .fourth-card-3 p {
+
+        padding-left: 10px !important;
+
+    }
+
+    .learn-btn {
+
+        /* border: 2px solid red !important; */
+        background-color: transparent;
+        margin-bottom: 20px !important;
+        padding-left: 10px !important;
+    }
+
+    .fifth-container {
+         
+        width: 100% !important;
+        height: 100vh !important;
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        overflow: hidden !important;
+    }
+
+    .fifth-con-left {
+
+        width: 100% !important;
+        height: 50% !important;
+        /* border: 2px solid red; */
+        padding-left: 50px !important;
+        z-index: 2 !important;
+        gap: 10px;
+    }
+
+    .fifth-con-right {
+
+        width: 100% !important;
+        height: 50% !important;
+        /* border: 2px solid red;   */
+    }
+
+    .fifth-con-right img {
+
+        width: 80% !important;
+    }
+
+    .fifth-left-head {
+
+        font-size: 30px;
+        width: 90% !important;
+    }
+
+    .fifth-card-con {
+
+        width: 100% !important;
+        height: 80% !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap !important;
+        flex-direction: column !important;
+        padding-left: 0px !important;
+    }
+
+    .fifth-card-1 {
+
+        /* border: 2px solid red !important; */
+        width: 50% !important;
+    }
+
+    .fifth-card-1 p {
+
+        width: 100% !important;
+        height: 70px !important;
+    }
+
+    .fifth-card-2 {
+
+        /* border: 2px solid red !important; */
+        width: 50% !important;
+    }
+
+    .fifth-card-2 p {
+
+        width: 100% !important;
+    }
+
+    .fifth-card-3 {
+
+        /* border: 2px solid red !important; */
+        width: 50% !important;
+    }
+
+    .fifth-card-3 p {
+
+        width: 100% !important;
+    }
+
+    .fifth-card-4 {
+
+        /* border: 2px solid red !important; */
+        width: 50% !important;
+    }
+
+    .fifth-card-4 p {
+
+        width: 100% !important;
+    }
+
+    .sixth-container {
+
+        width: 100% !important;
+        height: 40vh !important;
+        background-size: cover;
+        overflow: hidden !important;
+    }
+
+    .sixth-con-text {
+
+        /* border: 2px solid red !important; */
+        width: 100% !important;
+    }
+
+    .sixth-con-text h1 {
+
+        font-size: 30px;
+        width: 80% !important;
+    }
+
+    .sixth-con-buttons {
+        width: 100% !important;
+        /* border: 2px solid red !important; */
+    }
+
+    .sixth-button-1 {
+        width: 150px !important;
+        /* border: 2px solid red; */
+    }
+
+    .sixth-button-2 {
+        width: 200px !important;
+        /* border: 2px solid red; */
+    }
+
+    .seventh-container {
+
+        width: 100% !important;
+        height: 30vh !important;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden !important;
+    }
+
+    .seventh-text {
+
+        width: 100% !important;
+        height: 60% !important;
+        /* border: 2px solid red; */
+    }
+
+    .seventh-right {
+
+        width: 100% !important;
+        height: 40% !important;
+        display: flex;
+        align-items: start;
+        justify-content:start;
+        padding-left: 30px !important;
+        margin-top: -5px !important;
+        /* border: 2px solid red !important;  */
+    }
+    .seventh-text p {
+
+        width: 80% !important;
+    }
+    
+    .seventh-head {
+
+        width: 100% !important;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        padding-left: 30px !important;
+    }
+
+    .seventh-head h1 {
+
+        font-size: 20px;
+    }
+
+    .seventh-head h2 {
+
+        font-size: 20px;
+    }
+
+}
+/* -------------------------------------------------------------------------- */
+
+@media only screen and (max-width:768px) {
+    
+    nav {
+
+        /* border: 2px solid red !important; */
+        /* display: none; */
+        width: 100% !important;
+        overflow: hidden !important;
+        position: relative;
+        z-index: 1 !important;
+    }
+
+    nav img {
+
+        width: 150px !important;
+        position: absolute;
+        left: 20px;
+    }
+
+    nav ul {
+
+        width: 90% !important;
+        /* border: 2px solid red !important; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 20px !important;
+        padding-top: 5px !important;
+    }
+
+    nav ul li {
+        width: 105px !important;
+        height: 50px !important;
+        /* border: 1px solid red !important; */
+    }
+
+    nav a {
+        font-size: 13px !important;
+        /* border: 2px solid red !important; */
+
+    }
+
+    nav button {
+        width: 120px !important;
+        height: 50px !important;
+        /* border: 2px solid red; */
+        margin-left: -100px !important;
+    }
+
+    .first-container {
+
+        /* border: 5px solid red !important; */
+        width: 100% !important;
+        height: 100vh !important;
+        position: relative;
+        overflow: hidden !important;
+        z-index: 11111111 !important;
+        gap: 20px !important;
+    }
+
+    #background {
+
+        width: 80% !important;
+        position: absolute;
+        right: 0;
+        /* top: -40%; */
+        /* z-index: 1111 !important; */
+
+    }
+
+    .first-con-text {
+
+        width: 100% !important;
+        padding-bottom: 130px;
+        /* border: 2px solid red !important; */
+    }
+
+    .first-con-right {
+        display: none;
+    }
+
+    .first-container h1 {
+
+        width: 80% !important;
+        font-size: 40px;
+        margin-right: 80px;
+    }
+
+    .first-container p {
+
+        /* border: 2px solid red; */
+        margin-right: 150px !important;
+    }
+
+    .first-con-buttons {
+
+        /* border: 2px solid red !important; */
+        width: 100% !important;
+        padding-left: 40px !important;
+
+    }
+
+    /* ---------------------------------------------------------------------------------------------------- */
+
+    .second-container {
+
+        width: 100% !important;
+        height: 70vh !important;
+        overflow: hidden !important;
+        /* border: 2px solid red !important; */
+    }
+
+    .second-con-details  {
+
+        width: 100% !important;
+        height: 100% !important;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-wrap: wrap;
+        padding-left: 30px !important;
+        /* flex-direction: column; */
+    }
+
+    .card-1 {
+
+        width: 50% !important;
+        height: 50% !important;
+        /* border: 2px solid red !important; */
+        padding-left: 20px !important;
+    }
+
+    .card-1 h1 {
+
+        width: 100% !important;
+        font-size: 25px;
+    }
+    .card-2 {
+
+        width: 50% !important;
+        height: 50% !important;
+        /* border: 2px solid red !important; */
+        padding-left: 20px !important;
+    }
+
+    .card-2 h1 {
+
+        width: 100% !important;
+        font-size: 25px;
+    }
+
+    .card-2 p {
+
+        height: 120px !important;
+    }
+
+    .card-3 {
+
+        width: 50% !important;
+        height: 50% !important;
+        /* border: 2px solid red !important; */
+        padding-left: 20px !important;
+    }
+
+    .card-3 h1 {
+
+        width: 100% !important;
+        font-size: 25px;
+    }
+
+    .card-4 {
+
+        width: 50% !important;
+        height: 50% !important;
+        /* border: 2px solid red !important; */
+        padding-left: 20px !important;
+    }
+
+    .card-4 h1 {
+
+        width: 100% !important;
+        font-size: 25px;
+    }
+
+    .third-container {
+
+        width: 100% !important;
+        height: 180vh !important;
+        /* border: 2px solid red !important; */
+        display: flex;
+        flex-direction: column;
+        overflow: hidden !important;
+    }
+
+    .third-con-left {
+
+        width: 100% !important;
+        height: 60% !important;
+        /* border: 2px solid red !important; */
+    }
+
+    .third-con-right {
+
+        width: 100% !important;
+        height: 40% !important;
+        /* border: 2px solid red !important; */
+        padding-right: 15px !important;
+    }
+
+    .third-con-right h1 {
+
+        font-size: 30px;
+        width: 80% !important;
+        padding-right: 50px !important;
+    }
+
+    .third-con-right p {
+
+        font-size: 15px;
+        width: 95% !important;
+    }
+
+    .third-con-buttons {
+
+        /* border: 2px solid red !important; */
+        width: 95%;
+    }
+
+    .fourth-container {
+
+        width: 100% !important;
+        height: 280vh !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        overflow: hidden !important;
+    }
+
+    .fourth-con-text {
+
+        width: 100% !important;
+        height: 5% !important;
+        display: flex;
+        align-items: center;
+        justify-content: start !important;
+        padding-left: 40px !important; 
+        /* margin-bottom: -10% !important; */
+        /* border: 2px solid red !important; */
+    }
+
+    .fourth-con-text h1 {
+
+        width: 90% !important;
+        /* border: 2px solid red; */
+        font-size: 25px;
+        padding-left: 35px;
+    }
+
+    .fourth-con-card {
+
+        width: 100% !important;
+        height: 90% !important;
+        /* border: 2px solid red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .fourth-card-1 {
+
+        width: 80% !important;
+        height: 60% !important;
+        /* border: 2px solid red !important; */
+    }
+
+    .fourth-card-1 h1 {
+
+        padding-left: 10px !important;
+
+    }
+
+    .fourth-card-1 h2 {
+
+        padding-left: 10px !important;
+
+    }
+
+    .fourth-card-1 p {
+
+        padding-left: 10px !important;
+
+    }
+
+    .fourth-card-2 {
+
+        width: 80% !important;
+        height: 60% !important;
+    }
+
+    .fourth-image-2 {
+
+        background-position: 0 30% !important;
+
+    }
+
+    .fourth-card-2 h1 {
+
+        padding-left: 10px !important;
+
+    }
+
+    .fourth-card-2 h2 {
+
+        padding-left: 10px !important;
+
+    }
+
+    .fourth-card-2 p {
+
+        padding-left: 10px !important;
+
+    }
+
+    .fourth-card-3 {
+
+        width: 80% !important;
+        height: 60% !important;
+        /* border: 2px solid red !important; */
+    }
+    
+    .fourth-card-3 h1 {
+
+        padding-left: 10px !important;
+
+    }
+
+    .fourth-card-3 h2 {
+
+        padding-left: 10px !important;
+
+    }
+
+    .fourth-card-3 p {
+
+        padding-left: 10px !important;
+
+    }
+
+    .learn-btn {
+
+        /* border: 2px solid red !important; */
+        background-color: transparent;
+        margin-bottom: 20px !important;
+        padding-left: 10px !important;
+    }
+
+    .fifth-container {
+         
+        width: 100% !important;
+        height: 170vh !important;
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        overflow: hidden !important;
+    }
+
+    .fifth-con-left {
+
+        width: 100% !important;
+        height: 50% !important;
+        /* border: 2px solid red; */
+        padding-left: 50px !important;
+        z-index: 2 !important;
+        gap: 10px;
+    }
+
+    .fifth-con-right {
+
+        width: 100% !important;
+        height: 50% !important;
+        /* border: 2px solid red;   */
+    }
+
+    .fifth-con-right img {
+
+        width: 70% !important;
+        padding-bottom: 40px;
+    }
+
+    .fifth-left-head {
+
+        font-size: 30px;
+        width: 90% !important;
+    }
+
+    .fifth-card-con {
+
+        width: 100% !important;
+        height: 80% !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap !important;
+        flex-direction: column !important;
+        padding-left: 0px !important;
+    }
+
+    .fifth-card-1 {
+
+        /* border: 2px solid red !important; */
+        width: 50% !important;
+    }
+
+    .fifth-card-1 p {
+
+        width: 100% !important;
+        height: 50px !important;
+    }
+
+    .fifth-card-2 {
+
+        /* border: 2px solid red !important; */
+        width: 50% !important;
+    }
+
+    .fifth-card-2 p {
+
+        width: 100% !important;
+    }
+
+    .fifth-card-3 {
+
+        /* border: 2px solid red !important; */
+        width: 50% !important;
+    }
+
+    .fifth-card-3 p {
+
+        width: 100% !important;
+    }
+
+    .fifth-card-4 {
+
+        /* border: 2px solid red !important; */
+        width: 50% !important;
+    }
+
+    .fifth-card-4 p {
+
+        width: 100% !important;
+    }
+
+    .sixth-container {
+
+        width: 100% !important;
+        height: 40vh !important;
+        background-size: cover;
+        overflow: hidden !important;
+    }
+
+    .sixth-con-text {
+
+        /* border: 2px solid red !important; */
+        width: 100% !important;
+    }
+
+    .sixth-con-text h1 {
+
+        font-size: 30px;
+        width: 80% !important;
+    }
+
+    .sixth-con-buttons {
+        width: 100% !important;
+        /* border: 2px solid red !important; */
+    }
+
+    .sixth-button-1 {
+        width: 150px !important;
+        /* border: 2px solid red; */
+    }
+
+    .sixth-button-2 {
+        width: 200px !important;
+        /* border: 2px solid red; */
+    }
+
+    .seventh-container {
+
+        width: 100% !important;
+        height: 30vh !important;
+        display: flex;
+        /* flex-direction: column; */
+        overflow: hidden !important;
+    }
+
+    .seventh-text {
+
+        width: 100% !important;
+        height: 60% !important;
+        /* border: 2px solid red; */
+    }
+
+    .seventh-right {
+
+        width: 100% !important;
+        height: 40% !important;
+        display: flex;
+        align-items: start;
+        justify-content:start;
+        padding-top: 40px;
+        margin-right: -40%;
+    }
+    .seventh-text p {
+
+        width: 80% !important;
+    }
+    
+    .seventh-head {
+
+        width: 100% !important;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        padding-left: 30px !important;
+    }
+
+    .seventh-head h1 {
+
+        font-size: 20px;
+    }
+
+    .seventh-head h2 {
+
+        font-size: 20px;
+    }
+
+}

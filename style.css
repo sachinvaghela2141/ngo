@@ -1,0 +1,1036 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth !important;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.bg-image {
+
+    width: 100% !important;
+    border: 2px solid red;
+    overflow: hidden;
+}
+
+.bg-image img {
+    width: 60%;
+    position: absolute;
+    top: 0;
+    right: 0%;
+
+    animation-name: opacity;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+nav {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 111;
+    
+
+    animation-name: toptodown;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+}
+
+nav img {
+    z-index: 111;
+    width: 160px;
+    margin-right: 30px;
+}
+
+nav ul {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* gap: 40px; */
+    /* padding-left: 3; */
+    padding-top: 4px;
+    z-index: 111;
+}
+
+nav ul li {
+    list-style: none;
+    width: 130px;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s linear;
+    z-index: 111;
+}
+
+nav ul li:hover {
+    background-color: rgba(161, 161, 161, 0.759) !important;
+    color: rgb(189, 187, 187) !important;
+    scale: 1.02;
+    transition: all .2s linear;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-family: 'Poppins'sans-serif;
+    z-index: 111;
+}
+
+nav button {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border: none;
+    color: white;
+    transition: .2s linear;
+    z-index: 111;
+}
+
+nav button:hover {
+    background-color: rgba(161, 161, 161, 0.759);
+    color: black;
+    scale: 1.02;
+    transition: .2s linear;
+}
+
+
+
+/* first-con */
+
+.first-container {
+    width: 100%;
+    height: 82.8vh;
+    position: relative;
+    display: flex;
+}
+
+.first-dott {
+
+    width: 50px !important;
+    z-index: 1;
+    position: absolute;
+    top: 85% !important;
+    left: 2%;
+
+    animation-name: levitate !important;
+    animation-timing-function: ease-in-out !important;
+    animation-duration: 2s !important;
+    animation-iteration-count: infinite !important;
+}
+
+.second-dott {
+
+    width: 50px !important;
+    z-index: 1;
+    position: absolute;
+    top: 1% !important;
+    right: 2% !important;
+    z-index: 1;
+
+    animation-name: levitate-2 !important;
+    animation-timing-function: ease-in-out !important;
+    animation-duration: 2s !important;
+    animation-iteration-count: infinite !important;
+}
+
+.first-con-text {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    /* padding-bottom: 100px; */
+}
+
+.first-con-text h1 {
+    font-size: 50px;
+    width: 70%;
+
+    animation-name: downtotop;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+}
+
+.first-con-text p {
+    width: 70%;
+}
+
+.first-con-buttons {
+    width: 70%;
+}
+
+.first-con-buttons button {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border: none;
+    color: white;
+    transition:all .2s linear;
+    z-index: 111;
+}
+
+.first-con-buttons button:hover {
+    background-color: rgba(161, 161, 161, 0.759);
+    color: black;
+    scale: 1.02;
+    transition:all .2s linear;
+}
+
+.discover-btn {
+    width: 150px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0) !important;
+    border: none;
+    color: black !important;
+    scale: 1;
+    transition: all .2s linear;
+    z-index: 111;
+    margin-left: 20px;
+}
+
+.discover-btn:hover {
+    color: rgb(161, 161, 161) !important;
+    scale: 1.02;
+    transition: all .2s linear;
+    border: 1px solid rgba(192, 192, 192, 0.7) !important;
+}
+
+.first-con-right {
+    width: 50%;
+    height: 100%;
+    z-index: 111;
+    position: relative;
+}
+
+.right-head {
+    position: absolute;
+    right: 21%;
+    bottom: 23%;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+    animation-name: righttoleft;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1.5s;
+}
+
+.right-para {
+    position: absolute;
+    right: 20%;
+    bottom: 12%;
+    width: 20%;
+    text-align: end;
+
+    animation-name: righttoleft-4;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1.5s;
+}
+
+/* second-con */
+
+.second-container {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-con-details {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.card-1 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 40px;
+    gap: 5px;
+    transition: all .2s linear;
+
+    animation-name: righttoleft;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.card-1:hover {
+    scale: 1.05;
+    border-radius: 5px;
+    transition: all .2s linear;
+}
+
+.card-1 img {
+    width: 60px;
+}
+
+.card-1 h1 {
+    font-size: 30px;
+}
+
+.card-1 p {
+    width: 80%;
+    color: rgb(171, 171, 171);
+    font-weight: 400;
+}
+
+.card-2 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 40px;
+    gap: 5px;
+    transition: all .2s linear;
+
+    animation-name: righttoleft-2;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.card-2:hover {
+    scale: 1.05;
+    border-radius: 5px;
+    transition: all .2s linear;
+}
+
+.card-2 img {
+    width: 60px;
+}
+
+.card-2 h1 {
+    font-size: 30px;
+}
+
+.card-2 p {
+    width: 80%;
+    height: 70px;
+    color: rgb(171, 171, 171);
+    font-weight: 400;
+}
+
+.card-3 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 40px;
+    gap: 5px;
+    transition: all .2s linear;
+
+    animation-name: righttoleft-3;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.card-3:hover {
+    scale: 1.05;
+    border-radius: 5px;
+    transition: all .2s linear;
+}
+
+.card-3 img {
+    width: 60px;
+}
+
+.card-3 h1 {
+    font-size: 30px;
+}
+
+.card-3 p {
+    width: 90%;
+    color: rgb(171, 171, 171);
+    font-weight: 400;
+}
+
+.card-4 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 40px;
+    gap: 5px;
+    transition: all .2s linear;
+
+    animation-name: righttoleft-4;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.card-4:hover {
+    scale: 1.05;
+    border-radius: 5px;
+    transition: all .2s linear;
+}
+
+.card-4 img {
+    width: 60px;
+}
+
+.card-4 h1 {
+    font-size: 30px;
+}
+
+.card-4 p {
+    width: 80%;
+    color: rgb(171, 171, 171);
+    font-weight: 400;
+}
+
+/* third-con */
+
+.third-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+
+.third-con-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.third-con-left img {
+    width: 90%;
+
+    animation-name: downtotop;
+    animation-name: levitate !important;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.third-con-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.third-con-right h1 {
+    font-size: 45px;
+    width: 50%;
+    text-align: end;
+    margin-left: 30%;
+
+    animation-name: righttoleft-5;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.third-para-1 {
+    width: 80%;
+    color: black;
+    text-align: end;
+}
+
+.third-para-2 {
+    width: 80%;
+    color: rgb(171, 171, 171);
+    text-align: end;
+}
+
+.third-para-3 {
+    width: 80%;
+    color: rgb(171, 171, 171);
+    text-align: end;
+}
+
+.third-con-buttons {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.about-btn {
+    width: 150px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0) !important;
+    border: none;
+    color: black !important;
+    scale: 1;
+    transition: all .2s linear;
+    z-index: 111;
+    margin-left: 20px;
+}
+
+.about-btn:hover {
+    color: rgb(161, 161, 161) !important;
+    scale: 1.02;
+    transition: all .2s linear;
+    border: 1px solid rgba(192, 192, 192, 0.7) !important;
+}
+
+.donate-btn {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(0, 0, 0) !important;
+    border: none;
+    color: white !important;
+    scale: 1;
+    transition: all .2s linear;
+    z-index: 111;
+    margin-left: 20px;
+}
+
+.donate-btn:hover {
+    color: black !important;
+    scale: 1.02;
+    transition: all .2s linear;
+    background-color: rgba(161, 161, 161, 0.759) !important;
+}
+
+/* fourth-con */
+
+.fourth-container {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fourth-con-text {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.fourth-con-text h1 {
+    font-size: 40px;
+    width: 40%;
+
+    animation-name: downtotop;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.fourth-con-card {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fourth-card-1 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 8px;
+
+    animation-name: righttoleft-2;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.fourth-image-1 {
+    width: 100%;
+    height: 60% !important;
+    background: url(andrew.jpg);
+    background-size: cover;
+    filter: grayscale(0.5);
+    transition: all .4s linear;
+}
+
+.fourth-image-1:hover {
+    filter: grayscale(0);
+    transition: all .4s linear;
+}
+
+.fourth-card-2 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 8px;
+
+    animation-name: righttoleft-3;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.fourth-image-2 {
+    width: 100%;
+    height: 60% !important;
+    background: url(sumariya.jpg);
+    background-size: cover;
+    filter: grayscale(0.5);
+    transition: all .4s linear;
+
+}
+
+.fourth-image-2:hover {
+    filter: grayscale(0);
+    transition: all .4s linear;
+}
+
+.fourth-card-3 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 8px;
+
+    animation-name: righttoleft-4;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.fourth-image-3 {
+    width: 100%;
+    height: 60% !important;
+    background: url(zakiya.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(0.5);
+    transition: all .4s linear;
+}
+
+.fourth-image-3:hover {
+    filter: grayscale(0);
+    transition: all .4s linear;
+}
+
+.fourth-card-1 h1 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.fourth-card-1 h2 {
+    font-size: 20px;
+    color: grey;
+}
+
+.fourth-card-1 p {
+    width: 90%;
+}
+
+.fourth-card-1 button {
+    background-color: transparent;
+    border: none;
+    font-size: medium;
+    color: black;
+    transition: .4s linear;
+    z-index: 111;
+    margin-top: 20px;
+}
+
+.fourth-card-1 button:hover {
+    color: rgba(161, 161, 161, 0.759);
+    transform: translateY(-10px);
+    /* scale: 1.02; */
+    transition: all .4s linear;
+}
+
+/* fifth-con */
+
+.fifth-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    pointer-events: all;
+}
+
+.fifth-con-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.fifth-left-head {
+    font-size: 40px;
+    width: 70%;
+
+
+    animation-name: downtotop;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+
+}
+
+.fifth-con-card {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fifth-card-1 {
+    width: 40%;
+    height: 50%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+
+    animation-name: downtotop-2;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+}
+
+.fifth-card-1 span {
+    font-size: 14px;
+}
+
+.fifth-card-1 img {
+    width: 55px;
+    margin-left: -10px;
+}
+
+.fifth-card-1 h1 {
+    font-weight: 600;
+    margin-top: -16%;
+}
+
+.fifth-card-1 p {
+    width: 70%;
+}
+
+.fifth-card-2 {
+    width: 40%;
+    height: 50%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+
+    animation-name: downtotop-3;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+}
+
+.fifth-card-2 span {
+    font-size: 14px;
+}
+
+.fifth-card-2 img {
+    width: 50px;
+    margin-left: -10px;
+}
+
+.fifth-card-2 h1 {
+    font-weight: 600;
+    margin-top: -16%;
+}
+
+.fifth-card-2 p {
+    width: 90%;
+}
+
+.fifth-card-3 {
+    width: 40%;
+    height: 50%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+
+    animation-name: downtotop-4;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+}
+
+.fifth-card-3 span {
+    font-size: 14px;
+}
+
+.fifth-card-3 img {
+    width: 50px;
+    margin-left: -10px;
+}
+
+.fifth-card-3 h1 {
+    font-weight: 600;
+    margin-top: -16%;
+}
+
+.fifth-card-3 p {
+    width: 90%;
+}
+
+.fifth-card-4 {
+    width: 40%;
+    height: 50%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+
+    animation-name: downtotop-5;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+}
+
+.fifth-card-4 span {
+    font-size: 14px;
+}
+
+.fifth-card-4 img {
+    width: 50px;
+    margin-left: -10px;
+}
+
+.fifth-card-4 h1 {
+    font-weight: 600;
+    margin-top: -16%;
+}
+
+.fifth-card-4 p {
+    width: 90%;
+}
+
+.fifth-con-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fifth-con-right img {
+    width: 70%;
+
+    animation-name: righttoleft;
+    animation-name: levitate !important;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+/* sixth-con */
+
+.sixth-container {
+    width: 100%;
+    height: 50vh;
+    background: url(boy.jpg);
+    background-size: 100%;
+    background-position: 0% 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sixth-con-text {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.sixth-con-text h1 {
+    color: white;
+    width: 40%;
+    text-align: center;
+    font-size: 50px;
+
+    animation-name: downtotop;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+}
+
+.sixth-con-buttons {
+    width: 80%;
+    height: 40%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.sixth-button-1 {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(224, 145, 0);
+    border: none;
+    color: white;
+    transition: .2s linear;
+    z-index: 111;
+    font-size: 16px;
+}
+
+.sixth-button-1:hover {
+    background-color: rgba(161, 161, 161, 0.759);
+    color: white;
+    scale: 1.02;
+    transition: .2s linear;
+}
+
+.sixth-button-2 {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(62, 169, 0);
+    border: none;
+    color: white;
+    transition: .2s linear;
+    z-index: 111;
+    font-size: 16px;
+}
+
+.sixth-button-2:hover {
+    background-color: rgba(161, 161, 161, 0.759);
+    color: white;
+    scale: 1.02;
+    transition: .2s linear;
+}
+
+/* seventh-con */
+
+.seventh-container {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+    /* flex-direction: column; */
+}
+
+.seventh-text {
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 40px;
+    gap: 10px;
+}
+
+.seventh-head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: -30px;
+}
+
+.seventh-head h1 {
+    font-size: 30px;
+    transition: all .4s linear;
+}
+
+.seventh-head h1:hover {
+    color: rgb(189, 187, 187);
+    transition: all .4s linear;
+}
+
+.seventh-head h2 {
+    transition: all .4s linear;
+}
+
+.seventh-head h2:hover {
+    color: rgb(189, 187, 187);
+    transition: all .4s linear;
+}
+
+.seventh-right {
+    width: 50%;
+    height: 100%;
+}
+
+.seventh-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+.seventh-right i {
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.589);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all .2s linear;
+}
+
+.seventh-right i:hover {
+    background-color: rgb(206, 206, 206);
+    color: black;
+    transform: translateY(-5px);
+    transition: all .2s linear;
+}
+
+.seventh-container span {
+    border: 1px solid rgba(188, 188, 188, 0.608);
+    width: 90%;
+    position: absolute;
+    bottom: 40px;
+    right: 5%;
+}
